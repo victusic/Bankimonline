@@ -1,0 +1,17 @@
+/* Сброс стилей браузера */
+@import 'normalize.css';
+
+/*Подключение шрифтов*/
+@import '../assets/fonts/Inter/connect.scss';
+@import '../assets/fonts/Roboto/connect.scss';
+
+/* Стили Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*базовые стили*/
+
+body{
+    @apply bg-background;
+}
